@@ -5,8 +5,120 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный HTML и CSS</a>», уровень 2.</p>
-
+    <header class="page-header">
+      <nav class="main-nav">
+        <a class="main-nav__logo" href="">Pink</a>
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a href="#">Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">Фотографии</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">Конкурс</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">HTML Academy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <img class="page-main__image" src="http://placehold.it/150x100" width="320" height="396" alt="Фото телефона">
+      <section class="download-pink">
+        <button class="download-pink__btn botton-pink" type="button">Скачать приложение</button>
+        <ul class="download-pink__list os-list">
+          <li class="os-list__item">logo Apple</li>
+          <li class="os-list__item">logo Android</li>
+          <li class="os-list__item">logo Windows</li>
+        </ul>
+        <p class="os-list__available">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </section>
+      <section class="information">
+        <h2 class="visually-hidden">Информация о приложении</h2>
+        <div class="information__wrapper">
+          <h2 class="information__title">Устали от серости мегаполиса?</h2>
+          <h2 class="information__title">Нам есть, что вам предложить!</h2>
+          <ul class="information__list features-list">
+            <li class="features-list__item">
+              <h3 class="features-list__title">Поднимает настроение</h3>
+              <p class="features-list__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+            </li>
+            <li class="features-list__item">
+              <h3 class="features-list__title">Меняет мир вокруг</h3>
+              <p class="features-list__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+            </li>
+            <li class="features-list__item">
+              <h3 class="features-list__title">Заводит новых друзей</h3>
+              <p class="features-list__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+            </li>
+          </ul>
+        </div>
+        <img src="http://placehold.it/150x100" width="150" height="250" alt="Iphone">
+      </section>
+      <section class="reviews">
+        <h2 class="visually-hidden">Отзывы пользователей</h2>
+        <div class="reviews__wrapper slider">
+          <ul class="reviews__list slider-list">
+            <li class="reviews__item slider__item">
+              <h2 class="reviews__author-name">Николай Петров</h2>
+              <p class="reviews__description">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            </li>
+          </ul>
+          <p class="reviews__toggles slider__toggles">
+            <button class="slider__toggle">1</button>
+            <button class="slider__toggle">2</button>
+            <button class="slider__toggle">3</button>
+          </p>
+        </div>
+      </section>
+      <section class="rates">
+        <h2 class="visually-hidden">Тарифы</h2>
+        <div class="rates__wrapper slider">
+          <ul class="rates__list slider__list">
+            <li class="rates__item slider__item">
+              <img class="rates__image" src="http://placehold.it/150x100" width="320" height="150" alt="Фото тарифа">
+            </li>
+            <li class="rates__item slider__item">
+              <img class="rates__image" src="http://placehold.it/150x100" width="320" height="150" alt="Фото тарифа">
+            </li>
+            <li class="rates__item slider__item">
+              <img class="rates__image" src="http://placehold.it/150x100" width="320" height="150" alt="Фото тарифа">
+            </li>
+          </ul>
+          <p class="rates__toggles slider__toggles">
+            <button class="slider__toggle" type="button">1</button>
+            <button class="slider__toggle" type="button">2</button>
+            <button class="slider__toggle" type="button">3</button>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <h2 class="visually-hidden">Наши контакты</h2>
+      <div class="page-footer__contacts contacts">
+        <h2 class="contacts__questions">Остались вопросы?<br>Cвяжиетсь с нами!</h2>
+        <b class="contacts__title">Звоните:</b>
+        <P class="contacts__text">
+          <a href="#"><span>Тел.:</span>+7 (812) 555-66-66</a>
+        </P>
+        <b class="contacts__title">Пишите:</b>
+        <p class="contacts__text">
+          <a href="#">mail@htmlacademy.ru</a>
+        </p>
+        <b class="contacts__title">Приезжайте в гости</b>
+        <p class="contacts__text">
+          ул. Большая<br>Конюшенная, 19/8
+        </p>
+      </div>
+      <div class="page-footer__map">
+        <img class="page-footer__map-image" src="http://placehold.it/150x100" width="320" height="250" alt="Адрес">
+      </div>
+    </footer>
+    <!-- <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный HTML и CSS</a>», уровень 2.</p> -->
   </body>
 </html>

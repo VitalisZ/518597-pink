@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="main-nav">
+        <a class="main-nav__logo" href="">Pink</a>
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a href="#">Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">Фотографии</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">Конкурс</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">HTML Academy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="form-main">
+      <h2 class="visually-hidden">Конкурс. Выиграй путешествие</h2>
+      <div class="form-main__contest-title contest-title">
+        <p class="contest-title__text">Конкурс на самое безбашенное путешествие с Пинк</p>
+      </div>
+      <section class="form-main__contest">
+        <p class="form-main__title">Поделитесь своей историей и получите<br>шанс выиграть ценный приз — 1000<br>миль на вашу бонусную карту!</p>
+        <form class="form-main__initials initials" action="https://echo.htmlacademy.ru" method="post">
+          <p class="initials__item">
+            <label for="surename">Фамилия:</label>
+            <input class="initials__author" id="surename" type="text" name="surename" placeholder="Укажите фамилию*">
+          </p>
+          <p class="initials__item">
+            <label for="name">Имя:</label>
+            <input class="initials__author" id="name" type="text" name="name" placeholder="Укажите имя*">
+          </p>
+          <p class="initials__item">
+            <label for="patronymic">Отчество:</label>
+            <input class="initials__author" id="patronymic" type="text" name="patronymic" placeholder="Ну и отчество тоже">
+          </p>
+        </form>
+      </section>
+      <section class="form-main__achievements achievements">
+        <div class="achievements__wrapper">
+          <p class="achievements__title">Ваши безбашенные<br>достижения в путешествии</p>
+          <ul class="achievements__list">
+            <li class="achievements__item">
+              <label for="selfie">Сделал селфи с акулой</label>
+              <input class="achievements__check" id="selfie" type="checkbox">
+            </li>
+            <li class="achievements__item">
+              <label for="beach">Обгорел на пляже</label>
+              <input class="achievements__check" id="beach" type="checkbox">
+            </li>
+            <li class="achievements__item">
+              <label for="chuck-norris">Видел Чака Норриса</label>
+              <input class="achievements__check" id="chuck-norris" type="checkbox">
+            </li>
+            <li class="achievements__item">
+              <label for="souvenires">Накупил сувениров</label>
+              <input class="achievements__check" id="souvenires" type="checkbox">
+            </li>
+            <li class="achievements__item">
+              <label for="tower">Удержал башню</label>
+              <input class="achievements__check" id="tower" type="checkbox">
+            </li>
+            <li class="achievements__item">
+              <label for="hotel">Разгромил отель</label>
+              <input class="achievements__check" id="hotel" type="checkbox">
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="form-main__phone-mail phone-mail">
+        <form class="phone-mail__form" action="https://echo.htmlacademy.ru" method="post">
+          <p class="phone-mail__item">
+            <label for="phone"></label>
+            <input id="phone" type="text" placeholder="Номер, пожалуйста">
+          </p>
+          <p class="phone-mail__item">
+            <label for="mail"></label>
+            <input id="mail" type="text" placeholder="Введите почту*">
+          </p>
+        </form>
+      </section>
+      <section class="form-main__choice-app choice-app ">
+        <p class="choice-app__title">С каким приложением<br>путешествовали?</p>
+        <ul class="choice-app__list">
+          <li class="choice-app__item">
+            <label for="ios">Pink для iOS</label>
+            <input id="ios" type="checkbox">
+          </li>
+          <li class="choice-app__item">
+            <label for="android">Pink для Android</label>
+            <input id="android" type="checkbox">
+          </li>
+          <li class="choice-app__item">
+            <label for="windows-phone">Windows Phone</label>
+            <input id="windows-phone" type="checkbox">
+          </li>
+        </ul>
+      </section>
+      <section class="form-main__emotions emotions">
+        <p class="emotions__title">Опешите свои эмоции</p>
+        <textarea class="emotions__text" name="emotions" id="emotions-text" cols="30" rows="10">Можно прям в красках, не стесняясь в выражениях</textarea>
+      </section>
+      <div class="form-main__button button-form">
+        <button class="button-form__submit" type="button">Оправить форму</button>
+        <small class="form-main__legend">
+          <sup>*</sup>-обязательные поля
+        </small>
+      </div>
+    </main>
+    <footer class="form-footer">
+      <div class="form_footer__wrapper">
+        <div class="form-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">twitter</li>
+            <li class="social__item">facebook</li>
+            <li class="social__item">youtube</li>
+          </ul>
+        </div>
+        <div class="form-footer__copyright copyright">
+          <p class="copyright__text">Разработано</p>
+          <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
