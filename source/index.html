@@ -13,13 +13,13 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
-              <a href="#">Главная</a>
+              <a href="index.html">Главная</a>
             </li>
             <li class="site-list__item">
-              <a href="#">Фотографии</a>
+              <a href="photo.html">Фотографии</a>
             </li>
             <li class="site-list__item">
-              <a href="#">Конкурс</a>
+              <a href="form.html">Конкурс</a>
             </li>
             <li class="site-list__item">
               <a href="#">HTML Academy</a>
@@ -29,15 +29,19 @@
       </nav>
     </header>
     <main class="page-main">
-      <img class="page-main__image" src="http://placehold.it/150x100" width="320" height="396" alt="Фото телефона">
+      <div class="page-main_wrapper">
+        <img class="page-main__image" src="../img/iphone-hand-mobile@1x.png" width="257" height="289" alt="Фото телефона">
+      </div>
       <section class="download-pink">
-        <button class="download-pink__btn botton-pink" type="button">Скачать приложение</button>
-        <ul class="download-pink__list os-list">
-          <li class="os-list__item">logo Apple</li>
-          <li class="os-list__item">logo Android</li>
-          <li class="os-list__item">logo Windows</li>
-        </ul>
-        <p class="os-list__available">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+        <button class="download-pink__btn button-pink" type="button">Скачать приложение</button>
+        <div class="os-list__wrapper">
+          <ul class="download-pink__list os-list">
+            <li class="os-list__item">logo Apple</li>
+            <li class="os-list__item">logo Android</li>
+            <li class="os-list__item">logo Windows</li>
+          </ul>
+        </div>
+        <p class="download-pink__available">Доступно для iPhone, iPad, Android,<br>Windows Phone, OS X, Windows 8</p>
       </section>
       <section class="information">
         <h2 class="visually-hidden">Информация о приложении</h2>
