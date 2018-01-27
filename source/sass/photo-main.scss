@@ -1,4 +1,63 @@
 .photo-main {
   width: 320px;
   margin: 0 auto;
+  border: 1px dashed black;
+}
+
+.photo-main__title {
+  background-image: url(../img/bg-back-mobile@1x.jpg);
+  background-repeat: no-repeat;
+  min-width: 320px;
+  height: 170px;
+}
+
+.photo-title__text {
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 50px 0;
+  font-size: 24px;
+}
+
+
+.author-photo {
+	// background-color: #f2f2f2;
+}
+
+.author-photo__title-text {
+	text-align: center;
+}
+
+.author-photo__list {
+	padding: 0;
+	margin: 0;
+
+	list-style: none;
+}
+
+.author-photo__item {
+  margin: 0 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.author-photo__buttom-text {
+	text-align: center;
+}
+
+/*блок photo-main__post-photo */
+.photo-main__post-photo {
+
+}
+
+.post-photo {
+	background-color: #f2f2f2;
+}
+
+.settings-photo__btn {
+  text-align: center;
+}
+
+.post-photo__your-photo {
+  margin-left: 20px;
 }

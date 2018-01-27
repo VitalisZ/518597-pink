@@ -1,0 +1,61 @@
+.form-footer {
+  width: 320px;
+  margin: 0 auto;
+  border: 1px dashed black;
+}
+
+.form-footer__logo {
+  margin: 0;
+  padding: 35px 0;
+  text-align: center;
+}
+
+.form-footer__logo--link {
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.social__list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.social__item {
+	text-align: center;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.social__item {
+	text-align: center;
+}
+
+.form-footer__copyright{
+  margin: 30px 0;
+}
+.copyright {
+	display: flex;
+	text-align: center;
+}
+
+.copyright__text {
+	margin: 0;
+	/*margin-right: auto;*/
+ 	margin-left: auto;
+}
+
+.copyright__link {
+ /*margin-left: 30px;*/
+ padding-left: 20px;
+ margin-right: auto;
+}

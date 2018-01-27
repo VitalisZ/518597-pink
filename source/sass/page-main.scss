@@ -1,7 +1,7 @@
 .page-main {
   width: 320px;
   margin: 0 auto;
-  background-color: aquamarine;
+  border: 1px dashed black;
 }
 
 // page-main__download
@@ -10,16 +10,23 @@
   background-image: url(../img/bg-back-mobile@1x.jpg);
   background-repeat: no-repeat;
   min-width: 320px;
-  min-height: 400px;
+  min-height: 463px;
 }
 
 .download__image {
-  display: block
+  display: block;
+  padding-top: 173px;
 }
 
 .button-pink__wrapper {
   text-align: center;
   margin: 0;
+}
+
+.download-pink__btn {
+  margin: 30px 20px;
+  width: 280px;
+  height: 55px;
 }
 
 .page-main__download-wrapper {
@@ -86,6 +93,7 @@
 
 .information__iphone {
   display: block;
+  margin: 0 auto;
 }
 
 // page-main__reviews

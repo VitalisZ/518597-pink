@@ -9,10 +9,17 @@
 }
 
 .main-nav__logo {
+  margin-right: auto;
+  font-size: 25px;
   text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
   color: white;
 }
 
+.main-nav__toggle {
+  margin-left: auto;
+}
 .main-nav__wrapper {
 
 }
@@ -22,7 +29,14 @@
   padding: 0;
 }
 
+.site-list__item {
+  text-align: center;
+}
 .site-list__item a {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
   text-decoration: none;
   color: white;
 }
