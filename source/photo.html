@@ -3,30 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="page-header">
-        <nav class="main-nav">
-          <a class="main-nav__logo" href="">Pink</a>
-          <button class="main-nav__toggle" type="button">Открыть меню</button>
-          <div class="main-nav__wrapper">
-            <ul class="main-nav__list site-list">
-              <li class="site-list__item">
-                <a href="#">Главная</a>
-              </li>
-              <li class="site-list__item">
-                <a href="#">Фотографии</a>
-              </li>
-              <li class="site-list__item">
-                <a href="#">Конкурс</a>
-              </li>
-              <li class="site-list__item">
-                <a href="#">HTML Academy</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+      <nav class="main-nav">
+        <a class="main-nav__logo" href="">Pink</a>
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a href="index.html">Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a href="photo.html">Фотографии</a>
+            </li>
+            <li class="site-list__item">
+              <a href="form.html">Конкурс</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">HTML Academy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <main class="photo-main">
       <div class="photo-main__title photo-title">
         <p class="photo-title__text">Фотографии пользователей</p>
@@ -95,12 +97,12 @@
       </section>
       <section class="photo-main__post-photo post-photo">
         <div class="post-photo__download">
-          <img class="post-photo__your-photo" src="http://placehold.it/150x100" width="280" height="150" alt="Ваша фотография">
+          <img class="post-photo__your-photo" src="http://placehold.it/150x100" width="280" height="374" alt="Ваша фотография">
           <div class="post-photo__settings-photo settings-photo">
             <p class="settings-photo__btn">
-              <img src="http://placehold.it/150x100" width="80" height="50" alt="">
-              <img src="http://placehold.it/150x100" width="80" height="50" alt="">
-              <img src="http://placehold.it/150x100" width="80" height="50" alt="">
+              <img src="http://placehold.it/150x100" width="30" height="30" alt="">
+              <img src="http://placehold.it/150x100" width="30" height="30" alt="">
+              <img src="http://placehold.it/150x100" width="30" height="30" alt="">
             </p>
             <input class="settings-photo__range" type="range">
           </div>
@@ -113,6 +115,9 @@
     </main>
     <footer class="form-footer">
       <div class="form-footer__wrapper">
+        <p class="form-footer__logo">
+          <a class="form-footer__logo--link" href="">Pink</a>
+        </p>
         <div class="form-footer__social social">
           <ul class="social__list">
             <li class="social__item">twitter</li>
@@ -121,8 +126,8 @@
           </ul>
         </div>
         <div class="form-footer__copyright copyright">
-          <p class="copyright__text">Разработано</p>
-          <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          <span class="copyright__text">Разработано</span>
+            <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
         </div>
       </div>
     </footer>

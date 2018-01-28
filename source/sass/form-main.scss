@@ -1,0 +1,156 @@
+.form-main {
+  width: 320px;
+  margin: 0 auto;
+  border: 1px dashed black;
+}
+// form-main__contest
+.contest-title {
+  background-image: url(../img/bg-back-mobile@1x.jpg);
+  background-repeat: no-repeat;
+  min-width: 320px;
+  min-height: 238px;
+}
+
+.contest-title__text {
+  margin: 0;
+  padding: 35px 40px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+.form-main__contest--title {
+  margin: 0;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.form-main__initials{
+
+}
+
+.initials__item {
+  text-transform: uppercase;
+  color: #d22856;
+}
+.initials__item label {
+  padding-left: 20px;
+}
+
+.data__author {
+  margin-left: 20px;
+  // padding-left: 20px;
+  width: 280px;
+  height: 63px;
+  font-size: 18px;
+	line-height: 30px;
+}
+
+// achievements
+.form-main__achievements {
+  background-color: #f2f2f2;
+}
+
+.achievements__title {
+  margin: 0;
+  padding: 37px 0;
+  font-size: 18px;
+  text-align: center;
+  color: #d22856;
+}
+
+.achievements__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.achievements__item {
+  padding: 30px 0;
+  font-size: 18px;
+  text-align: center;
+}
+// phone-mail
+.phone-mail__form {
+
+}
+
+.phone-mail__item {
+  text-transform: uppercase;
+  color: #d22856;
+}
+.phone-mail__item label{
+  padding-left: 20px;
+}
+
+// choice-app
+.form-main__choice-app{
+  background-color: #f2f2f2;
+}
+
+.choice-app__title {
+  font-size: 18px;
+  text-align: center;
+  color: #d22856;
+}
+
+.choice-app__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.choice-app__item {
+  padding: 25px 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+// emotions
+.emotions__title {
+  font-size: 18px;
+  text-align: center;
+  color: #d22856;
+}
+
+.emotions__text {
+  margin: 0 20px;
+  margin-bottom: 50px;
+  width: 280px;
+  height: 200px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.button-form__submit {
+  width: 280px;
+  height: 65px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-color: #2aab6d;
+  border: none;
+  cursor: pointer;
+}
+
+.form-main__legend {
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.form-main__legend sup {
+  color: #d22856;
+}
+.button-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20px;
+}
