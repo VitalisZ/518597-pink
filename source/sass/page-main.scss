@@ -5,10 +5,11 @@
 }
 
 // page-main__download
-
-.download__wrapper {
+.page-main__download {
   background-image: url(../img/bg-back-mobile@1x.jpg);
   background-repeat: no-repeat;
+}
+.download__wrapper {
   min-width: 320px;
   min-height: 463px;
 }
@@ -56,10 +57,19 @@
   color: white;
 }
 
+@media (max-width: 660px) {
+  .download__title-tablet {
+    display: none;
+  }
+}
+
 // information
 
+.page-main__information {
+  background-color: #f2f2f2;
+}
+
 .information__title-wrapper {
-  background-color: white;
   padding: 10px;
 }
 
@@ -158,4 +168,55 @@
   padding-left: 15px;
 }
 
+@media (min-width: 660px) {
+  .page-main {
+    width: 660px;
+    margin: 0 auto;
+    border: 1px dashed black;
+  }
 
+  .download__image {
+    display: block;
+    width: 470px;
+    height: 545px;
+    margin-left: 170px;
+    padding-top: 173px;
+  }
+
+  .page-main__download {
+    height: 730px;
+    display: flex;
+    background-image: url(../img/index-tablet-bg.jpg);
+    background-repeat: no-repeat;
+  }
+  .page-main__download-wrapper {
+    background-color: transparent;
+    order: -1;
+    margin-top: 30%;
+  }
+
+  .ddownload__wrapper {
+    display: none;
+  }
+
+  .download__image {
+    display: none;
+  }
+
+  .download__title-tablet {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    line-height: 51px;
+  }
+}
+
+// Information
+@media (min-width: 660px) {
+  .features-list {
+    margin-left: 50%;
+  }
+  .features-list__item {
+    text-align: left;
+  }
+}

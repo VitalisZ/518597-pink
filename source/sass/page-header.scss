@@ -40,3 +40,10 @@
   text-decoration: none;
   color: white;
 }
+
+@media (min-width: 660px) {
+  .page-header {
+    margin: 0 auto;
+    width: 660px;
+  }
+}
