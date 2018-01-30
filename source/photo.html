@@ -36,8 +36,8 @@
       <section class="photo-main__author-photo author-photo">
         <p class="author-photo__title-text">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
         <ul class="author-photo__list">
-          <li class="author-photo__item">
-            <a href="#">
+          <li class="author-photo__item panorama">
+            <a class="panorama__photo" href="#">
               <img src="http://placehold.it/150x100" width="280" height="150" alt="Фотографии пользователя">
             </a>
             <p class="author-photo__name">Анна <span>(5 минут назад)</span></p>
@@ -49,7 +49,7 @@
               <img src="http://placehold.it/150x100" width="280" height="150" alt="Фотографии пользователя">
             </a>
             <p class="author-photo__name">Левон <span>(5 часов назад)</span></p>
-            <p class="author-photo__text">Вчера он на луну летал, сегодня в руки к нам попал</p>
+            <p class="author-photo__text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
             <p class="author-photo__like">Нравиться: <span>356</span></p>
           </li>
           <li class="author-photo__item">
@@ -93,7 +93,7 @@
             <p class="author-photo__like">Нравиться: <span>2560</span></p>
           </li>
         </ul>
-        <P class="author-photo__buttom-text">Затмите их всех!Выкладывайте все, что накопилось в телефоне!</P>
+        <P class="author-photo__buttom-text">Затмите их всех!<br>Выкладывайте все, что накопилось в телефоне!</P>
       </section>
       <section class="photo-main__post-photo post-photo">
         <div class="post-photo__download">
@@ -105,11 +105,15 @@
               <img src="http://placehold.it/150x100" width="30" height="30" alt="">
             </p>
             <input class="settings-photo__range" type="range">
+            <p class="post-photo__button button">
+              <button class="button__post" type="button">Запостить</button>
+              <button class="button__cancel" type="button">Отмена</button>
+            </p>
           </div>
-        </div>
-        <div class="post-photo__button button">
-          <button class="button__post" type="button">Запостить</button>
-          <button class="button__cancel" type="button">Отмена</button>
+          <!-- <div class="post-photo__button button">
+            <button class="button__post" type="button">Запостить</button>
+            <button class="button__cancel" type="button">Отмена</button>
+          </div> -->
         </div>
       </section>
     </main>

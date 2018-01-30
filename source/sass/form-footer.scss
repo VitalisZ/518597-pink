@@ -59,3 +59,11 @@
  padding-left: 20px;
  margin-right: auto;
 }
+
+@media (min-width: 660px) {
+  .form-footer {
+    width: 660px;
+    margin: 0 auto;
+    border: 1px dashed black;
+  }
+}

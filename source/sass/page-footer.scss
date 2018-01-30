@@ -24,3 +24,38 @@
 .contacts__text--link {
   text-decoration: none;
 }
+
+@media (max-width: 660px) {
+  .page-footer__tablet {
+    display: none;
+  }
+}
+
+@media (min-width: 660px) {
+  .page-footer {
+    width: 660px;
+    margin: 0 auto;
+    border: 1px dashed black;
+  }
+
+  .page-footer__contacts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .contacts__questions {
+    width: 100%;
+  }
+  .contacts__call {
+    width: 50%;
+  }
+
+  .contacts__write {
+    width: 50%;
+  }
+
+  .contacts__come {
+    width: 100%;
+  }
+}

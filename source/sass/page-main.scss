@@ -106,6 +106,12 @@
   margin: 0 auto;
 }
 
+@media (max-width: 660px) {
+  .duration {
+    display: none;
+  }
+}
+
 // page-main__reviews
 
 .page-main__reviews {
@@ -134,6 +140,17 @@
   margin: 0;
   padding: 20px 0;
 }
+
+@media (max-width: 660px) {
+  .reviews__author-name--tablet {
+    display: none;
+  }
+
+  .reviews__author-name--profession {
+    display: none;
+  }
+}
+
 
 // page-main__rates
 
@@ -168,6 +185,7 @@
   padding-left: 15px;
 }
 
+// page-main__download media
 @media (min-width: 660px) {
   .page-main {
     width: 660px;
@@ -214,9 +232,77 @@
 // Information
 @media (min-width: 660px) {
   .features-list {
-    margin-left: 50%;
+    width: 330px;
   }
   .features-list__item {
     text-align: left;
   }
+
+  .information__iphone-wrapper {
+    width: 280px;
+    order: -1;
+  }
+
+  .features-list__wrapper {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .duration {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+
+  .duration__time {
+    margin: 0;
+    margin-top: 97px;
+    margin-left: 50%;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .duration__text {
+    margin-left: 50%;
+  }
+
+  .duration__link {
+    margin-left: 50%;
+  }
+}
+
+// reviews
+@media (min-width: 660px) {
+  .reviews__author-name {
+    display: none;
+  }
+  .reviews__author-name--tablet {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  .reviews__author-name--profession {
+    margin: 0;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .reviews__description {
+    padding: 0 80px;
+  }
+
+  .reviews__list {
+    padding: 0;
+  }
+}
+
+// rates media
+@media (min-width: 660px) {
+
 }

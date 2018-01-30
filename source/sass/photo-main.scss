@@ -7,8 +7,8 @@
 .photo-main__title {
   background-image: url(../img/bg-back-mobile@1x.jpg);
   background-repeat: no-repeat;
-  min-width: 320px;
-  height: 170px;
+  // min-width: 320px;
+  // height: 170px;
 }
 
 .photo-title__text {
@@ -25,12 +25,15 @@
 }
 
 .author-photo__title-text {
-	text-align: center;
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
 }
 
 .author-photo__list {
 	padding: 0;
-	margin: 0;
+  margin: 0;
+  margin-bottom: 45px;
 
 	list-style: none;
 }
@@ -60,4 +63,111 @@
 
 .post-photo__your-photo {
   margin-left: 20px;
+}
+
+.author-photo__buttom-text {
+  margin-bottom: 45px;
+
+}
+
+// photo-main__post-photo
+.post-photo__button {
+  text-align: center;
+}
+
+.button__post {
+  width: 280px;
+  margin-bottom: 12px;
+}
+
+.button__cancel {
+  width: 280px;
+}
+
+//
+@media (min-width: 660px) {
+  .photo-main {
+    width: 660px;
+    margin: 0 auto;
+    border: 1px dashed black;
+  }
+
+  .photo-main__title {
+    width: 660px;
+    height: 440px;
+    background-image: url(../img/back-tablet@1x.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .photo-title__text {
+    padding-top: 185px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  // author-photo
+  .author-photo__title-text {
+    padding: 75px 40px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .author-photo__list {
+    width: 660px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+
+  .author-photo__item {
+    margin: 0;
+    width: 300px;
+  }
+
+  .panorama {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .panorama__photo {
+    width: 660px;
+  }
+
+  .panorama__photo img {
+    width: 660px;
+  }
+
+  .author-photo__buttom-text {
+    margin-bottom: 70px;
+  }
+
+  // photo-main__post-photo
+  .post-photo__download {
+    width: 660px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .post-photo__your-photo {
+    margin: 0;
+    width: 50%;
+  }
+
+  .post-photo__settings-photo {
+    margin: 0;
+    width: 50%;
+  }
+  // post-photo__button
+  .button__post {
+    width: 260px;
+    margin-bottom: 24px;
+  }
+
+  .button__cancel {
+    width: 260px;
+  }
 }
