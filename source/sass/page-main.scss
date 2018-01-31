@@ -185,6 +185,7 @@
   padding-left: 15px;
 }
 
+// tablet
 // page-main__download media
 @media (min-width: 660px) {
   .page-main {
@@ -305,4 +306,111 @@
 // rates media
 @media (min-width: 660px) {
 
+}
+
+// desktop
+// @media (max-width: 1200px) {
+//   .reviews__toggles {
+//     display: none;
+//   }
+// }
+@media (min-width: 1200px) {
+  .page-main {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px dashed black;
+  }
+// page-main__download
+  .page-main__download {
+    height: 853px;
+    display: flex;
+    background-image: url(../img/index-desktop-bg.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .page-main__download-wrapper {
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+
+// page-main__information
+  .information__title {
+    font-size: 50px;
+    line-height: 71px;
+  }
+  .duration {
+    padding-bottom: 115px;
+    background-color: #f2f2f2;
+  }
+
+  .duration__time {
+    margin-top: 0;
+    margin-left: 490px;
+  }
+
+  .duration__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 160px;
+    margin-left: 490px;
+  }
+
+  .duration__link {
+    padding-top: 15px;
+    margin-left: 490px;
+    padding-right: 160px;
+
+  }
+
+  .information__iphone-wrapper {
+    display: none;
+  }
+
+  .features-list__wrapper {
+    width: 1200px;
+
+  }
+  .information__list {
+    width: 1200px;
+    padding: 0;
+    margin-bottom: 145px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .features-list__item {
+    width: 15%;
+    text-align: center;
+  }
+
+  .features-list__item::before {
+    display: inline-block;
+    content: "";
+    width: 186px;
+    height: 300px;
+    background-image: url(../img/index-iphone-1.png);
+  }
+
+  // page-main__reviews
+  .reviews__description {
+    padding: 0 300px;
+  }
+  .reviews__item {
+    padding-top: 180px;
+  }
+
+  .slider__toggles {
+    display: none;
+  }
+
+  .reviews__author-name--profession {
+    margin-bottom: 37px;
+  }
+
+  // page-main__rates
+  .page-main__rates {
+    height: 443px;
+  }
 }

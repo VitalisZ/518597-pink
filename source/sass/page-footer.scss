@@ -60,8 +60,24 @@
   }
 
   .page-footer__tablet {
+    height: 127px;
     display: flex;
     justify-content: space-around;
   }
+}
 
+@media (min-width: 660px) {
+  .page-footer {
+    width: 660px;
+    margin: 0 auto;
+    border: 1px dashed black;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-footer {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px dashed black;
+  }
 }

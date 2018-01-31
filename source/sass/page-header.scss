@@ -47,3 +47,10 @@
     width: 660px;
   }
 }
+
+@media (min-width: 1200px) {
+  .page-header {
+    margin: 0 auto;
+    width: 1200px;
+  }
+}
