@@ -3,6 +3,7 @@
   margin: 0 auto;
   border: 1px dashed black;
 }
+
 // form-main__contest
 .contest-title {
   background-image: url(../img/bg-back-mobile@1x.jpg);
@@ -153,4 +154,125 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 20px;
+}
+
+@media (min-width: 660px) {
+  .form-main {
+    width: 660px;
+    margin: 0 auto;
+    border: 1px dashed black;
+  }
+
+  .contest-title {
+    width: 660px;
+    height: 440px;
+    background-image: url(../img/back-tablet@1x.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .contest-title__text {
+    padding-top: 185px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  // form-main__contest
+  .form-main__contest--title br {
+    display: none;
+  }
+
+  .form-main__contest--title {
+    padding: 90px 120px;
+  }
+
+  .data__author {
+    width: 525px;
+  }
+
+  .data__author--tablet {
+    width: 565px;
+  }
+
+  .initials__item {
+    margin-bottom: 53px;
+  }
+
+  .contest__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-main__choice-app {
+    order: -2;
+    width: 620px;
+    margin: 0 auto;
+    margin-bottom: 53px;
+    background-color: white;
+    border: 3px solid #f2f2f2;
+  }
+
+  .form-main__phone-mail {
+    order: -1;
+    width: 620px;
+    margin: 0 auto;
+    margin-bottom: 53px;
+    background-color: white;
+    border: 3px solid #f2f2f2;
+  }
+
+  .phone {
+    order: -1;
+    width: 500px;
+    margin-left: 60px;
+  }
+
+  .mail {
+    order: -1;
+    width: 500px;
+    margin-left: 60px;
+  }
+
+  .phone-mail__item {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+
+  .phone-mail__item label {
+    padding-left: 60px;
+  }
+
+  .form-main__achievements {
+    width: 620px;
+    margin: 53px auto;
+    background-color: white;
+    border: 3px solid #f2f2f2;
+  }
+
+  .form-main__emotions {
+    width: 620px;
+    margin: 53px auto;
+    border: 3px solid #f2f2f2;
+  }
+
+  .form-main__button {
+    margin-bottom: 53px;
+  }
+
+  .form-main__legend {
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  .button-form__submit {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .emotions__text {
+    margin: 53px 60px;
+    width: 500px;
+    border: 3px solid #f2f2f2;
+  }
 }
