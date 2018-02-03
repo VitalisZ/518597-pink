@@ -60,6 +60,7 @@
  margin-right: auto;
 }
 
+// tablet
 @media (min-width: 660px) {
   .form-footer {
     width: 660px;
@@ -96,5 +97,14 @@
 
   .copyright__text {
     margin-top: 50px;
+  }
+}
+
+// desktop
+@media (min-width: 1200px) {
+  .form-footer {
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px dashed black;
   }
 }

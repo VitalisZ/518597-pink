@@ -19,72 +19,7 @@
   font-size: 24px;
 }
 
-
-.author-photo {
-	// background-color: #f2f2f2;
-}
-
-.author-photo__title-text {
-  text-align: center;
-  font-size: 14px;
-  line-height: 30px;
-}
-
-.author-photo__list {
-	padding: 0;
-  margin: 0;
-  margin-bottom: 45px;
-
-	list-style: none;
-}
-
-.author-photo__item {
-  margin: 0 20px;
-  text-align: center;
-  background-color: #f2f2f2;
-}
-
-.author-photo__buttom-text {
-	text-align: center;
-}
-
-/*блок photo-main__post-photo */
-.photo-main__post-photo {
-
-}
-
-.post-photo {
-	background-color: #f2f2f2;
-}
-
-.settings-photo__btn {
-  text-align: center;
-}
-
-.post-photo__your-photo {
-  margin-left: 20px;
-}
-
-.author-photo__buttom-text {
-  margin-bottom: 45px;
-
-}
-
-// photo-main__post-photo
-.post-photo__button {
-  text-align: center;
-}
-
-.button__post {
-  width: 280px;
-  margin-bottom: 12px;
-}
-
-.button__cancel {
-  width: 280px;
-}
-
-//
+// tablet
 @media (min-width: 660px) {
   .photo-main {
     width: 660px;
@@ -105,72 +40,29 @@
     font-size: 50px;
     line-height: 61px;
   }
+}
 
-  // author-photo
-  .author-photo__title-text {
-    padding: 75px 40px;
-    font-size: 18px;
-    line-height: 30px;
+// desktop
+@media (min-width: 1200px) {
+  .photo-main {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px dashed black;
   }
 
-  .author-photo__list {
-    width: 660px;
-    margin-bottom: 70px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
+  .photo-main__title {
+    width: 1200px;
+    height: 440px;
+    background-image: url(../img/back-desktop.jpg);
+    background-repeat: no-repeat;
   }
 
-  .author-photo__item {
-    margin: 0;
-    width: 300px;
+  .photo-title__text {
+    padding-top: 185px;
+    padding-right: 270px;
+    padding-left: 270px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 61px;
   }
-
-  .panorama {
-    width: 100%;
-    margin-bottom: 50px;
-  }
-
-  .panorama__photo {
-    width: 660px;
-  }
-
-  .panorama__photo img {
-    width: 660px;
-  }
-
-  .author-photo__buttom-text {
-    margin-bottom: 70px;
-  }
-
-  // photo-main__post-photo
-  .post-photo__download {
-    width: 660px;
-    padding: 55px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .post-photo__your-photo {
-    margin: 0;
-    padding-left: 20px;
-    width: 300px;
-  }
-
-  .post-photo__settings-photo {
-    margin: 0;
-    width: 50%;
-  }
-  // post-photo__button
-  .button__post {
-    width: 260px;
-    margin-bottom: 24px;
-  }
-
-  .button__cancel {
-    width: 260px;
-  }
-
 }

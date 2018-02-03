@@ -31,6 +31,7 @@
   }
 }
 
+// tablet
 @media (min-width: 660px) {
   .page-footer {
     width: 660px;
@@ -80,4 +81,10 @@
     margin: 0 auto;
     border: 1px dashed black;
   }
+}
+
+// desktop
+@media (min-width: 1200px) {
+
+
 }
