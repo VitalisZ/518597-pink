@@ -7,8 +7,8 @@
 .photo-main__title {
   background-image: url(../img/bg-back-mobile@1x.jpg);
   background-repeat: no-repeat;
-  // min-width: 320px;
-  // height: 170px;
+  min-width: 320px;
+  height: 170px;
 }
 
 .photo-title__text {
@@ -19,50 +19,45 @@
   font-size: 24px;
 }
 
-// tablet
-@media (min-width: 660px) {
-  .photo-main {
-    width: 660px;
-    margin: 0 auto;
-    border: 1px dashed black;
-  }
 
-  .photo-main__title {
-    width: 660px;
-    height: 440px;
-    background-image: url(../img/back-tablet@1x.jpg);
-    background-repeat: no-repeat;
-  }
-
-  .photo-title__text {
-    padding-top: 185px;
-    text-align: center;
-    font-size: 50px;
-    line-height: 61px;
-  }
+.author-photo {
+	// background-color: #f2f2f2;
 }
 
-// desktop
-@media (min-width: 1200px) {
-  .photo-main {
-    width: 1200px;
-    margin: 0 auto;
-    border: 1px dashed black;
-  }
+.author-photo__title-text {
+	text-align: center;
+}
 
-  .photo-main__title {
-    width: 1200px;
-    height: 440px;
-    background-image: url(../img/back-desktop.jpg);
-    background-repeat: no-repeat;
-  }
+.author-photo__list {
+	padding: 0;
+	margin: 0;
 
-  .photo-title__text {
-    padding-top: 185px;
-    padding-right: 270px;
-    padding-left: 270px;
-    text-align: center;
-    font-size: 50px;
-    line-height: 61px;
-  }
+	list-style: none;
+}
+
+.author-photo__item {
+  margin: 0 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.author-photo__buttom-text {
+	text-align: center;
+}
+
+/*блок photo-main__post-photo */
+.photo-main__post-photo {
+
+}
+
+.post-photo {
+	background-color: #f2f2f2;
+}
+
+.settings-photo__btn {
+  text-align: center;
+}
+
+.post-photo__your-photo {
+  margin-left: 20px;
 }
