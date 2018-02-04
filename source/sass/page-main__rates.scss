@@ -1,0 +1,71 @@
+.page-main__rates {
+  background-color: #f2f2f2;
+}
+
+.rates__list {
+  list-style: none;
+  width: 280px;
+  padding: 0;
+  margin: 0;
+}
+
+.rates__image {
+  display: block;
+}
+
+.rates__item {
+  border: 1px solid black;
+}
+
+.rates__title {
+  text-align: center;
+}
+
+.rates__title--price {
+  text-align: center;
+}
+
+.rates__description {
+  padding-left: 15px;
+}
+
+// tablet
+@media (min-width: 660px) {
+
+}
+
+// desktop
+@media (min-width: 1200px) {
+  .page-main__rates {
+    height: 443px;
+  }
+
+  .rates__list {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+  }
+
+  .rates__item {
+    width: 237px;
+    margin-right: 5px;
+  }
+
+  .rates__cell {
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .rates__description {
+    padding: 0;
+    text-align: left;
+    border: 1px dashed pink;
+  }
+
+  .one-column {
+    order: -1;
+  }
+}

@@ -1,0 +1,122 @@
+// page-main__download
+.page-main__download {
+  background-image: url(../img/bg-back-mobile@1x.jpg);
+  background-repeat: no-repeat;
+}
+.download__wrapper {
+  min-width: 320px;
+  min-height: 463px;
+}
+
+.download__image {
+  display: block;
+  padding-top: 173px;
+}
+
+.button-pink__wrapper {
+  text-align: center;
+  margin: 0;
+}
+
+.download-pink__btn {
+  margin: 30px 20px;
+  width: 280px;
+  height: 55px;
+}
+
+.page-main__download-wrapper {
+  background-color: #283645;
+}
+
+.download-pink {
+  background-color: #283645;
+  color: white;
+}
+
+.download-pink__list {
+  list-style: none;
+  padding: 0;
+}
+.os-list {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.download-pink__available {
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  padding-bottom: 30px;
+  color: white;
+}
+
+@media (max-width: 660px) {
+  .download__title-tablet {
+    display: none;
+  }
+}
+
+// tablet
+@media (min-width: 660px) {
+  .page-main {
+    width: 660px;
+    margin: 0 auto;
+    border: 1px dashed black;
+  }
+
+  .download__image {
+    display: block;
+    width: 470px;
+    height: 545px;
+    margin-left: 170px;
+    padding-top: 173px;
+  }
+
+  .page-main__download {
+    height: 730px;
+    display: flex;
+    background-image: url(../img/index-tablet-bg.jpg);
+    background-repeat: no-repeat;
+  }
+  .page-main__download-wrapper {
+    background-color: transparent;
+    order: -1;
+    margin-top: 30%;
+  }
+
+  .ddownload__wrapper {
+    display: none;
+  }
+
+  .download__image {
+    display: none;
+  }
+
+  .download__title-tablet {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    line-height: 51px;
+  }
+}
+
+// desktop
+@media (min-width: 1200px) {
+  .page-main {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px dashed black;
+  }
+  .page-main__download {
+    height: 853px;
+    display: flex;
+    background-image: url(../img/index-desktop-bg.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .page-main__download-wrapper {
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+}

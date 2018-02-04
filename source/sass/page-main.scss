@@ -4,158 +4,26 @@
   border: 1px dashed black;
 }
 
-// page-main__download
-
-.download__wrapper {
-  background-image: url(../img/bg-back-mobile@1x.jpg);
-  background-repeat: no-repeat;
-  min-width: 320px;
-  min-height: 463px;
+// tablet
+// page-main__download media
+@media (min-width: 660px) {
+  .page-main {
+    width: 660px;
+    margin: 0 auto;
+    border: 1px dashed black;
+  }
 }
 
-.download__image {
-  display: block;
-  padding-top: 173px;
+// rates media
+@media (min-width: 660px) {
+
 }
 
-.button-pink__wrapper {
-  text-align: center;
-  margin: 0;
+// desktop
+@media (min-width: 1200px) {
+  .page-main {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px dashed black;
+  }
 }
-
-.download-pink__btn {
-  margin: 30px 20px;
-  width: 280px;
-  height: 55px;
-}
-
-.page-main__download-wrapper {
-  background-color: #283645;
-}
-
-.download-pink {
-  background-color: #283645;
-  color: white;
-}
-
-.download-pink__list {
-  list-style: none;
-  padding: 0;
-}
-.os-list {
-  display: flex;
-  justify-content: space-around;
-  color: white;
-}
-
-.download-pink__available {
-  text-align: center;
-  vertical-align: middle;
-  margin: 0;
-  padding-bottom: 30px;
-  color: white;
-}
-
-// information
-
-.information__title-wrapper {
-  background-color: white;
-  padding: 10px;
-}
-
-.information__title {
-  text-align: center;
-  margin: 0;
-}
-
-.information__list {
-  list-style: none;
-  padding: 10px;
-  margin: 0;
-}
-
-.features-list {
-  background-color: #f2f2f2;
-}
-
-.features-list__title {
-  margin-top: 0;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-.features-list__item {
-  text-align: center;
-}
-
-.information__iphone-wrapper {
-  background-color: #f2f2f2;
-}
-
-.information__iphone {
-  display: block;
-  margin: 0 auto;
-}
-
-// page-main__reviews
-
-.page-main__reviews {
-  background-color: white;
-}
-
-.reviews__list {
-  list-style: none;
-  margin: 0;
-  padding: 10px;
-}
-
-.reviews__author-name {
-  margin: 0;
-  text-align: center;
-}
-
-.reviews__description {
-  text-align: center;
-  font-size: 14px;
-  line-height: 30px;
-}
-
-.slider__toggles{
-  text-align: center;
-  margin: 0;
-  padding: 20px 0;
-}
-
-// page-main__rates
-
-.page-main__rates {
-  background-color: #f2f2f2;
-}
-
-.rates__list {
-  list-style: none;
-  width: 280px;
-  padding: 0;
-  margin: 0;
-}
-
-.rates__image {
-  display: block;
-}
-
-.rates__item {
-  border: 1px solid black;
-}
-
-.rates__title {
-  text-align: center;
-}
-
-.rates__title--price {
-  text-align: center;
-}
-
-.rates__description {
-  padding-left: 15px;
-}
-
-
