@@ -5,7 +5,7 @@
 }
 
 .photo-main__title {
-  background-image: url(../img/bg-back-mobile@1x.jpg);
+  background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
   // min-width: 320px;
   // height: 170px;
@@ -30,7 +30,7 @@
   .photo-main__title {
     width: 660px;
     height: 440px;
-    background-image: url(../img/back-tablet@1x.jpg);
+    background-image: url("../img/back-tablet@1x.jpg");
     background-repeat: no-repeat;
   }
 
@@ -53,7 +53,7 @@
   .photo-main__title {
     width: 1200px;
     height: 440px;
-    background-image: url(../img/back-desktop.jpg);
+    background-image: url("../img/back-desktop.jpg");
     background-repeat: no-repeat;
   }
 

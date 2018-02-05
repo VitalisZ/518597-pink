@@ -1,12 +1,9 @@
-.phone-mail__form {
-
-}
-
 .phone-mail__item {
   text-transform: uppercase;
   color: #d22856;
 }
-.phone-mail__item label{
+
+.phone-mail__item label {
   padding-left: 20px;
 }
 
@@ -19,6 +16,7 @@
     background-color: white;
     border: 3px solid #f2f2f2;
   }
+
   .phone {
     order: -1;
     width: 500px;
@@ -52,6 +50,7 @@
     background-color: white;
     border: 3px solid #f2f2f2;
   }
+
   .phone {
     order: -3;
     width: 378px;

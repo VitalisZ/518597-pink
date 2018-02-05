@@ -37,27 +37,18 @@
   text-align: center;
 }
 
-.social__item {
-	text-align: center;
-}
-
 .form-footer__copyright {
   margin: 30px 0;
 }
 
-.copyright {
-	display: flex;
-	text-align: center;
-}
-
 .copyright__text {
-	margin: 0;
+  margin: 0;
 }
 
 .copyright__link {
- /*margin-left: 30px;*/
- padding-left: 20px;
- margin-right: auto;
+  /*margin-left: 30px;*/
+  padding-left: 20px;
+  margin-right: auto;
 }
 
 // tablet
@@ -103,8 +94,8 @@
 // desktop
 @media (min-width: 1200px) {
   .form-footer {
-  width: 1200px;
-  margin: 0 auto;
-  border: 1px dashed black;
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px dashed black;
   }
 }
