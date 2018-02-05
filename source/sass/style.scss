@@ -1,13 +1,10 @@
 @import "page-header";
-
 @import "page-main.scss";
 @import "page-main__download.scss";
 @import "page-main__information.scss";
 @import "page-main__reviews.scss";
 @import "page-main__rates.scss";
-
 @import "page-footer.scss";
-
 @import "form-main.scss";
 @import "form-main__contest.scss";
 @import "form-main__achievements.scss";
@@ -16,19 +13,15 @@
 @import "form-main__emotions.scss";
 @import "button-form__submit.scss";
 @import "form-footer.scss";
-
 @import "photo-main.scss";
 @import "photo-main__author-phorto.scss";
 @import "photo-main__post-photo.scss";
-
 @import "fonts.scss";
-
-
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 21px;
   box-sizing: border-box;

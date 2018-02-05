@@ -28,6 +28,7 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .features-list__item {
   text-align: center;
 }
@@ -52,6 +53,7 @@
   .features-list {
     width: 330px;
   }
+
   .features-list__item {
     text-align: left;
   }
@@ -98,8 +100,9 @@
     font-size: 50px;
     line-height: 61px;
     font-weight: normal;
-    font-family: "Open Sans light"
+    font-family: "Open Sans light";
   }
+
   .duration {
     padding-bottom: 115px;
     background-color: #f2f2f2;
@@ -123,7 +126,6 @@
     padding-top: 15px;
     margin-left: 490px;
     padding-right: 160px;
-
   }
 
   .information__iphone-wrapper {
@@ -132,8 +134,8 @@
 
   .features-list__wrapper {
     width: 1200px;
-
   }
+
   .information__list {
     width: 1200px;
     padding: 0;
@@ -152,6 +154,6 @@
     content: "";
     width: 186px;
     height: 300px;
-    background-image: url(../img/index-iphone-1.png);
+    background-image: url("../img/index-iphone-1.png");
   }
 }

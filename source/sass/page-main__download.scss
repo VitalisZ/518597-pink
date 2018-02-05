@@ -1,8 +1,9 @@
 // page-main__download
 .page-main__download {
-  background-image: url(../img/bg-back-mobile@1x.jpg);
+  background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
 }
+
 .download__wrapper {
   min-width: 320px;
   min-height: 463px;
@@ -37,6 +38,7 @@
   list-style: none;
   padding: 0;
 }
+
 .os-list {
   display: flex;
   justify-content: space-around;
@@ -66,7 +68,8 @@
   }
 
   .download__image {
-    display: block;
+    // display: block;
+    display: none;
     width: 470px;
     height: 545px;
     margin-left: 170px;
@@ -76,9 +79,10 @@
   .page-main__download {
     height: 730px;
     display: flex;
-    background-image: url(../img/index-tablet-bg.jpg);
+    background-image: url("../img/index-tablet-bg.jpg");
     background-repeat: no-repeat;
   }
+
   .page-main__download-wrapper {
     background-color: transparent;
     order: -1;
@@ -89,9 +93,9 @@
     display: none;
   }
 
-  .download__image {
-    display: none;
-  }
+  // .download__image {
+  //   display: none;
+  // }
 
   .download__title-tablet {
     color: white;
@@ -108,10 +112,11 @@
     margin: 0 auto;
     border: 1px dashed black;
   }
+
   .page-main__download {
     height: 853px;
     display: flex;
-    background-image: url(../img/index-desktop-bg.jpg);
+    background-image: url("../img/index-desktop-bg.jpg");
     background-repeat: no-repeat;
   }
 
