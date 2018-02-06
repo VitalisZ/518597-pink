@@ -16,13 +16,24 @@
   padding: 30px;
 }
 
+.contacts__title {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
 .contacts__text {
   margin: 0;
   padding: 10px;
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 100;
+  color: #d22856
 }
 
 .contacts__text--link {
   text-decoration: none;
+  color: #d22856
 }
 
 @media (max-width: 660px) {
@@ -81,5 +92,28 @@
     width: 1200px;
     margin: 0 auto;
     border: 1px dashed black;
+  }
+
+  .contacts__questions{
+    font-size: 50px;
+    line-height: 61px;
+    // font-weight: lighter;
+    font-weight: 100;
+    // font-family: "Open Sans light";
+  }
+
+  .contacts__call {
+    width: 33.3%;
+    order: 1;
+  }
+
+  .contacts__write {
+    width: 33.3%;
+    order: 3;
+  }
+
+  .contacts__come {
+    width: 33.3%;
+    order: 2;
   }
 }
