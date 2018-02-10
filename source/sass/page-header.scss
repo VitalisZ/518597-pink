@@ -50,6 +50,23 @@
 @media (min-width: 1200px) {
   .page-header {
     margin: 0 auto;
+    // margin-top: -110px;
+    height: 110px;
     width: 1200px;
+    z-index: 100;
+  }
+
+  .main-nav__list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .main-nav__toggle {
+    display: block;
+    margin-left: auto;
+  }
+
+  .site-list__item a {
+    font-size: 18px;
   }
 }
