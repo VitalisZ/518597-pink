@@ -61,12 +61,13 @@
     justify-content: space-around;
   }
 
-  .main-nav__toggle {
-    display: block;
-    margin-left: auto;
-  }
-
   .site-list__item a {
     font-size: 18px;
+  }
+
+  .main-logo__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
   }
 }
