@@ -22,10 +22,20 @@
 .button__post {
   width: 280px;
   margin-bottom: 12px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  border: 3px solid #d22856;
+  color: #d22856;
 }
 
 .button__cancel {
   width: 280px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  border: 3px solid rgba(181, 185, 190, 0.5);
+  color: rgba(181, 185, 190, 0.5);
 }
 
 // tablet

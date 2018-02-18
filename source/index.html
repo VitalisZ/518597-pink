@@ -8,8 +8,10 @@
   <body>
     <header class="page-header">
       <nav class="main-nav">
-        <a class="main-nav__logo" href="">Pink</a>
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-logo__wrapper">
+          <a class="main-nav__logo" href="">Pink</a>
+          <button class="main-nav__toggle" type="button">Открыть меню</button>
+        </div>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
@@ -104,41 +106,41 @@
         <div class="rates__wrapper slider">
           <ul class="rates__list slider__list">
             <li class="rates__item slider__item">
-              <div>
-                <h2 class="rates__title">База</h2>
+              <div class="rates__title">
+                <p class="rates__title--name">База</p>
                 <p class="rates__title--price">1,99 USD</p>
               </div>
-              <div class="rates__cell">
+              <div class="rates__cell first">
                 <span>V</span>
               </div>
               <div class="rates__cell">
-                <span>V</span>
+                <span>X</span>
               </div>
               <div class="rates__cell">
-                <span>V</span>
+                <span>X</span>
               </div>
             </li>
             <li class="rates__item">
-              <div>
-                <h2 class="rates__title">Стандарт</h2>
+              <div class="rates__title">
+                <p class="rates__title--name">Стандарт</p>
                 <p class="rates__title--price">3,99 USD</p>
               </div>
-              <div class="rates__cell">
+              <div class="rates__cell first">
                 <span class="rates__cell--check">V</span>
               </div>
               <div class="rates__cell">
                 <span>V</span>
               </div>
               <div class="rates__cell">
-                <span>V</span>
+                <span>X</span>
               </div>
             </li>
             <li class="rates__item">
-              <div>
-                <h2 class="rates__title">Анлим</h2>
+              <div class="rates__title">
+                <p class="rates__title--name">Анлим</p>
                 <p class="rates__title--price">9,99 USD</p>
               </div>
-                <div class="rates__cell">
+              <div class="rates__cell first">
                 <span>V</span>
               </div>
               <div class="rates__cell">
@@ -149,17 +151,11 @@
               </div>
             </li>
             <li class="rates__item one-column">
-              <p class="rates__description">Пустая ячейка</p>
-              <p class="rates__description">Розовый фильтр</p>
+              <p class="rates__description empty"></p>
+              <p class="rates__description pink-filter">Розовый фильтр</p>
               <p class="rates__description">Смайлики</p>
               <p class="rates__description">Коментарии</p>
             </li>
-            <!-- <li class="rates__item slider__item">
-              <img class="rates__image" src="http://placehold.it/150x100" width="320" height="150" alt="Фото тарифа">
-            </li>
-            <li class="rates__item slider__item">
-              <img class="rates__image" src="http://placehold.it/150x100" width="320" height="150" alt="Фото тарифа">
-            </li> -->
           </ul>
           <p class="rates__toggles slider__toggles">
             <button class="slider__toggle" type="button">1</button>
@@ -176,7 +172,7 @@
         <div class="contacts__call">
           <b class="contacts__title">Звоните:</b>
           <P class="contacts__text">
-            <a class="contacts__text--link" href="#"><span>Тел.:</span>+7 (812) 555-66-66</a>
+            <a class="contacts__text--link" href="#">+7 (812) 555-66-66</a>
           </P>
         </div>
         <div class="contacts__write">
@@ -200,9 +196,9 @@
         </p>
         <div class="form-footer__social social">
           <div class="social__list">
-            <a class="social__item" href="#">twitter</a>
-            <a class="social__item" href="#">facebook</a>
-            <a class="social__item" href="#">youtube</a>
+            <a class="social__item" href="#" aria-label="twitter">twitter</a>
+            <a class="social__item" href="#" aria-label="facebook">facebook</a>
+            <a class="social__item" href="#" aria-label="youtube">youtube</a>
           </div>
         </div>
           <div class="form-footer__copyright copyright">
