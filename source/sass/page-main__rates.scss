@@ -10,8 +10,8 @@
   display: flex;
   justify-content: center;
   // padding-top: 100px;
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
   // flex-wrap: wrap;
 }
 
@@ -34,7 +34,6 @@
   margin: 0;
   font-size: 18px;
   line-height: 30px;
-  font-family: "Open Sans light";
   text-align: center;
 }
 
@@ -70,7 +69,6 @@
 .empty {
   height: 100px;
   padding-top: 50px;
-  padding-top: 0;
   padding-bottom: 17px;
   background-color: #f2f2f2;
 }
@@ -131,7 +129,7 @@
     margin: 0;
     font-size: 18px;
     line-height: 30px;
-    font-family: "Open Sans light";
+    // font-family: "Open Sans light";
   }
 
   .one-column {
@@ -141,7 +139,6 @@
   .empty {
     height: 100px;
     padding-top: 50px;
-    padding-top: 0;
     padding-bottom: 17px;
     background-color: #f2f2f2;
   }
@@ -200,7 +197,7 @@
     margin: 0;
     font-size: 24px;
     line-height: 30px;
-    font-family: "Open Sans light";
+    // font-family: "Open Sans light";
   }
 
   .one-column {
@@ -210,7 +207,6 @@
   .empty {
     height: 100px;
     padding-top: 50px;
-    padding-top: 0;
     padding-bottom: 17px;
     background-color: #f2f2f2;
   }
